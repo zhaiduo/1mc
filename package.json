@@ -1,0 +1,16 @@
+{
+  "name": "1mc",
+  "version": "1.0.0",
+  "description": "One million count test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go": "node --max_old_space_size=10 index.js --production"
+  },
+  "author": "Adam",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "gc-profiler": "^1.4.0"
+  }
+}
